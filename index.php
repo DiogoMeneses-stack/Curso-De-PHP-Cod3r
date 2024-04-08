@@ -88,6 +88,7 @@
                         <li><a href="exercicio.php?dir=estruturas02&file=for">For</a></li>
                         <li><a href="exercicio.php?dir=estruturas02&file=desafio-de-laco-for">Desafio Laço For</a></li>
                         <li><a href="exercicio.php?dir=estruturas02&file=foreach">Foreach</a></li>
+                        <li><a href="exercicio.php?dir=estruturas02&file=break-continue">Break e Continue</a></li>
                     </ul>
                 </div>
             </nav>
