@@ -19,6 +19,33 @@ foreach ($matriz as $linhas) {
 }
 ?>
 
+<table>
+    <?php
+    foreach ($matriz as $linha) {
+        echo "<tr>";
+        foreach ($linha as $valor) {
+            echo "<td> $valor </td> ";
+        }
+        echo "</tr>";
+    }
+    ?>
+</table>
+
+<table>
+    <?php
+    foreach ($matriz as $index => $linha) {
+        $style = $index % 2 === 0 ?
+            'background-color: lightblue;' : '';
+        echo "<tr style='{$style}'>";
+        foreach ($linha as $valor) {
+            echo "<td>$valor</td>";
+        }
+        echo '</tr>';
+    }
+    ?>
+
+</table>
+
 <style>
     table {
         border: 1px solid #444;

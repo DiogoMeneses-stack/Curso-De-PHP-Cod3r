@@ -92,6 +92,7 @@
                         <li><a href="exercicio.php?dir=estruturas02&file=DesafioImpressao">Desafio de Impressao</a></li>
                         <li><a href="exercicio.php?dir=estruturas02&file=whileDoWhile">While e Do while</a></li>
                         <li><a href="exercicio.php?dir=estruturas02&file=desafio-tabelas">Desafio das Tableas</a></li>
+                        <li><a href="exercicio.php?dir=estruturas02&file=desafio-02-tabela">Desafio das Tableas 02</a></li>
                     </ul>
                 </div>
             </nav>
