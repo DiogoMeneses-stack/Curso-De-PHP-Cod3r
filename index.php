@@ -95,6 +95,13 @@
                         <li><a href="exercicio.php?dir=estruturas02&file=desafio-02-tabela">Desafio das Tableas 02</a></li>
                     </ul>
                 </div>
+
+                <div class="modulo vermelho-escuro">
+                    <h3>Módulo-07 - Funções</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=funcoes&file=escopo">Função e Escopo</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
