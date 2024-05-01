@@ -103,6 +103,9 @@
                         <li><a href="exercicio.php?dir=funcoes&file=argumentosretorno">Argumentos e Retornos</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafiopalindromo">Desafio Palindromo</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=arg-variaveis">Argumentos e Variaveis</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=arg-padrao">Argumentos Padrões</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=declarando-tipos">Usando Tipos</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=func-anonimas">Funções Anônimas</a></li>
                     </ul>
                 </div>
             </nav>
