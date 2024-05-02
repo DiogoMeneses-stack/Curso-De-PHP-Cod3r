@@ -106,6 +106,7 @@
                         <li><a href="exercicio.php?dir=funcoes&file=arg-padrao">Argumentos Padrões</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=declarando-tipos">Usando Tipos</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=func-anonimas">Funções Anônimas</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=Closure-Callable">Closure Callable</a></li>
                     </ul>
                 </div>
             </nav>
