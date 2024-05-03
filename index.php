@@ -107,13 +107,14 @@
                         <li><a href="exercicio.php?dir=funcoes&file=declarando-tipos">Usando Tipos</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=func-anonimas">Funções Anônimas</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=Closure-Callable">Closure Callable</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
                     </ul>
                 </div>
             </nav>
         </div>
     </main>
     <footer class="rodape">
-        COD3R & Diogo Meneses © <?= date('Y'); ?>
+         Por Diogo Meneses © <?= date('Y'); ?>
     </footer>
 </body>
 
