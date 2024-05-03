@@ -110,8 +110,13 @@
                         <li><a href="exercicio.php?dir=funcoes&file=recursividade">Recursividade</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=desafioRecursao">Desafio de Recursividade</a></li>
                         <li><a href="exercicio.php?dir=funcoes&file=retornoFunc">Retornando Função</a></li>
+                        <li><a href="exercicio.php?dir=funcoes&file=mapFilter">Map e Filter</a></li>
                     </ul>
                 </div>
+                <div class="modulo azul-escuro">
+                    <h3>Módulo-08 - Programação Orienta a Objetos</h3>
+                    <ul>
+                    </ul>
             </nav>
         </div>
     </main>
