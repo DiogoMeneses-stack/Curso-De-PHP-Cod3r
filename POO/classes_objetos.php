@@ -7,13 +7,13 @@ class Cliente{
        public $idade = 18;
 
        public function Apresentar(){
-            echo $this->nome . " " .$this->idade;
+            return $this->nome . " " .$this->idade;
 
 
        }
 }
 
 $cliente1 = new Cliente();
-$cliente1->nome = "Diogo";
-$cliente1->idade = 28;
-$cliente1 ->Apresentar();
+echo $cliente1->nome = "Diogo" ." ";
+echo $cliente1->idade = 28 . "<br>";
+echo $cliente1 ->Apresentar();
