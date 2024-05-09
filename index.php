@@ -117,6 +117,9 @@
                     <h3>Módulo-08 - Programação Orienta a Objetos</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=POO&file=classes_objetos">Primeira Classe</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=desafio-classe">Desafio de Classes</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=construtor-destrutor">Construtor e Destrutor</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=herança">Herança</a></li>
                     </ul>
             </nav>
         </div>
