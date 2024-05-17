@@ -120,6 +120,7 @@
                         <li><a href="exercicio.php?dir=POO&file=desafio-classe">Desafio de Classes</a></li>
                         <li><a href="exercicio.php?dir=POO&file=construtor-destrutor">Construtor e Destrutor</a></li>
                         <li><a href="exercicio.php?dir=POO&file=herança">Herança</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=encapsulamento">Encapsulamento / Visibilidade</a></li>
                     </ul>
             </nav>
         </div>
