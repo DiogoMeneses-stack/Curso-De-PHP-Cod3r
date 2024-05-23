@@ -124,6 +124,7 @@
                         <li><a href="exercicio.php?dir=POO&file=static">Classes Estáticas</a></li>
                         <li><a href="exercicio.php?dir=POO&file=interface">Interfaces</a></li>
                         <li><a href="exercicio.php?dir=POO&file=abstrata"> Classes Abstratas</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=desafio_erros">Desafio dos 7 erros</a></li>
                     </ul>
             </nav>
         </div>
