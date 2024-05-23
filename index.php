@@ -55,7 +55,7 @@
                     </ul>
                 </div>
                 <div class="modulo roxo">
-                    <h3>Módulo-04 - Condicionais 01</h3>
+                    <h3>Módulo-04 - Condicionais</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=condicionais&file=if_else">If e Else</a></li>
                         <li><a href="exercicio.php?dir=condicionais&file=operadores_relacionais">Operadores relacionais</a></li>
@@ -123,6 +123,7 @@
                         <li><a href="exercicio.php?dir=POO&file=encapsulamento">Encapsulamento / Visibilidade</a></li>
                         <li><a href="exercicio.php?dir=POO&file=static">Classes Estáticas</a></li>
                         <li><a href="exercicio.php?dir=POO&file=interface">Interfaces</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=abstrata"> Classes Abstratas</a></li>
                     </ul>
             </nav>
         </div>
