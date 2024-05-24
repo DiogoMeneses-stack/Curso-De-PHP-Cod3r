@@ -125,6 +125,8 @@
                         <li><a href="exercicio.php?dir=POO&file=interface">Interfaces</a></li>
                         <li><a href="exercicio.php?dir=POO&file=abstrata"> Classes Abstratas</a></li>
                         <li><a href="exercicio.php?dir=POO&file=desafio_erros">Desafio dos 7 erros</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=Final">Modificadores Final</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=traits">Traits</a></li>
                     </ul>
             </nav>
         </div>
