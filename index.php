@@ -127,6 +127,7 @@
                         <li><a href="exercicio.php?dir=POO&file=desafio_erros">Desafio dos 7 erros</a></li>
                         <li><a href="exercicio.php?dir=POO&file=Final">Modificadores Final</a></li>
                         <li><a href="exercicio.php?dir=POO&file=traits">Traits</a></li>
+                        <li><a href="exercicio.php?dir=POO&file=metodos-mag">Métodos Mágicos</a></li>
                     </ul>
             </nav>
         </div>
