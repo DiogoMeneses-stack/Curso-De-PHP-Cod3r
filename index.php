@@ -130,11 +130,18 @@
                         <li><a href="exercicio.php?dir=POO&file=metodos-mag">Métodos Mágicos</a></li>
                         <li><a href="exercicio.php?dir=POO&file=polimorfismo">Polimorismo</a></li>
                     </ul>
+                </div>
+                <div class="modulo laranja">
+                    <h3>Módulo-09 - Includes</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=includes&file=includes">Includes</a></li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </main>
     <footer class="rodape">
-         Por Diogo Meneses © <?= date('Y'); ?>
+        Por Diogo Meneses © <?= date('Y'); ?>
     </footer>
 </body>
 
