@@ -137,6 +137,7 @@
                         <li><a href="exercicio.php?dir=includes&file=includes">Includes</a></li>
                         <li><a href="exercicio.php?dir=includes&file=include_funcao">Includes de Função</a></li>
                         <li><a href="exercicio.php?dir=includes&file=include_require">Include Vs Require</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_com-retorno">Include com Retorno</a></li>
                     </ul>
                 </div>
             </nav>
