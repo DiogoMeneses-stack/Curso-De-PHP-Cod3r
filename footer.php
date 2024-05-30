@@ -1,0 +1,1 @@
+Por Diogo Meneses © <?= date('Y'); ?>
