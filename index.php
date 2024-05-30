@@ -135,6 +135,8 @@
                     <h3>Módulo-09 - Includes</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=includes&file=includes">Includes</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_funcao">Includes de Função</a></li>
+                        <li><a href="exercicio.php?dir=includes&file=include_require">Include Vs Require</a></li>
                     </ul>
                 </div>
             </nav>
