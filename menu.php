@@ -123,4 +123,11 @@
                         <li><a href="exercicio.php?dir=includes&file=desafio_modulo">Desafio do Módulo</a></li>
                     </ul>
                 </div>
+                <div class="modulo roxo-escuro">
+                    <h3>Módulo-10 - Namespaces</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=namespaces&file=namespaces">Namespaces</a></li>
+                        <li><a href="exercicio.php?dir=namespaces&file=sub-namespaces">Sub-Namespaces</a></li>
+                    </ul>
+                </div>
             </nav>
