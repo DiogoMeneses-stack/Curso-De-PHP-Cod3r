@@ -128,6 +128,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=namespaces&file=namespaces">Namespaces</a></li>
                         <li><a href="exercicio.php?dir=namespaces&file=sub-namespaces">Sub-Namespaces</a></li>
+                        <li><a href="exercicio.php?dir=namespaces&file=use_as">Use/As</a></li>
                     </ul>
                 </div>
             </nav>
