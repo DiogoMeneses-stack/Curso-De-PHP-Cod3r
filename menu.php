@@ -131,4 +131,10 @@
                         <li><a href="exercicio.php?dir=namespaces&file=use_as">Use/As</a></li>
                     </ul>
                 </div>
+                <div class="modulo vermelho">
+                    <h3>Módulo-11 - Tratamento de Erros</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=tratamento_de_erros&file=try_catch">Try e Catch</a></li>
+                    </ul>
+                </div>
             </nav>
