@@ -136,6 +136,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=tratamento_de_erros&file=try_catch">Try e Catch</a></li>
                         <li><a href="exercicio.php?dir=tratamento_de_erros&file=erro_personalizado">Erro Personalizado</a></li>
+                        <li><a href="exercicio.php?dir=tratamento_de_erros&file=desafio_intdiv_test">Desafio IntDiv</a></li>
                     </ul>
                 </div>
             </nav>
