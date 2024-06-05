@@ -14,6 +14,10 @@
     $_SESSION['email'] = 'diogofilho@gmail.com';
     ?>
 
+<p>
+        <a href="/index.php">Voltar pro Index</a>
+    </p>
+
     <p>
         <a href="sessao_01.php">Voltar</a>
     </p>
