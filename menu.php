@@ -140,4 +140,10 @@
                         <li><a href="exercicio.php?dir=tratamento_de_erros&file=handler">Error Handler</a></li>
                     </ul>
                 </div>
+                <div class="modulo azul-escuro">
+                    <h3>Módulo-12 - Sessão e Cookies</h3>
+                    <ul>
+                        <li><a href="exercicio.php?dir=Sessao_Cookies&file=sessao_01">Sessão e Cookies</a></li>
+                    </ul>
+                </div>
             </nav>
