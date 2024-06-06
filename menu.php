@@ -144,6 +144,7 @@
                     <h3>Módulo-12 - Sessão e Cookies</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=Sessao_Cookies&file=sessao_01">Sessão e Cookies</a></li>
-                    </ul>
+                        <li><a href="exercicio.php?dir=Sessao_Cookies&file=gerenciamento_sessao">Gerenciamento de Sessão</a></li>
+                        </ul>
                 </div>
             </nav>
