@@ -145,6 +145,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=Sessao_Cookies&file=sessao_01">Sessão e Cookies</a></li>
                         <li><a href="exercicio.php?dir=Sessao_Cookies&file=gerenciamento_sessao">Gerenciamento de Sessão</a></li>
+                        <li><a href="exercicio.php?dir=Sessao_Cookies/projeto_login&file=inicial">Projeto de Login</a></li>
                         </ul>
                 </div>
             </nav>
