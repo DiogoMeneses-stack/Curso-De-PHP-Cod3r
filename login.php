@@ -1,6 +1,10 @@
 <?php
 session_start();
 
+if($_COOKIE['usuario']){
+    $_SESSION['usuaroio'] = $_COOKIE['usuario'];
+}
+
 $email = $_POST['email'];
 $senha = $_POST['senha'];
 
@@ -26,6 +30,8 @@ if($_POST['email']){
         if($emailValido && $senhaValida){
             $_SESSION['erros'] = null;
             $_SESSION['usuario'] = $usuario['nome'];
+            $exp = time() + 60 * 60 * 24 * 30;
+            setcookie('usuario', $usuario['nome'], $exp);
             header('Location: index.php');
         }
     }

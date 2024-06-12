@@ -3,6 +3,11 @@ session_start();
     if(!$_SESSION['usuario']){
         header('Location: login.php');
     }
+    
+    if($_COOKIE['usuario']){
+        $_SESSION['usuaroio'] = $_COOKIE['usuario'];
+    }
+    
 
 ?>
 <!DOCTYPE html>
