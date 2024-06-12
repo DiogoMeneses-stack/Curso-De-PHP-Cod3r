@@ -24,7 +24,8 @@ session_start();
         <h2>Indice dos Exercicios</h2>
     </header>
     <nav class="navegacao">
-    
+        <span class="usuario">Usuário: <?= $_SESSION['usuario']?></span>
+        <a class="vermelho" href="logout.php">Sair</a>
     </nav>
     <main class="principal">
         <div class="conteudo">
