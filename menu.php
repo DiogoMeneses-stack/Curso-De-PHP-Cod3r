@@ -154,6 +154,8 @@
                         <li><a href="exercicio.php?dir=api&file=datas_01">Datas 01</a></li>
                         <li><a href="exercicio.php?dir=api&file=datas_02">Datas 02</a></li>
                         <li><a href="exercicio.php?dir=api&file=escrevendo_arquivos">Escrevendo Arquivos</a></li>
+                        <li><a href="exercicio.php?dir=api&file=lendo_arquivos">Lendo Arquivos</a></li>
+                        <li><a href="exercicio.php?dir=api&file=upload">Upload de Arquivos</a></li>
                     </ul>
                 </div>
             </nav>
