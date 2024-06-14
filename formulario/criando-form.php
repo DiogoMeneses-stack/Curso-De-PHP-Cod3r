@@ -5,30 +5,39 @@
 <?php
 //Validações de Formulário
 if (count($_POST) > 0) {
-    
-    //isset($_POST['nome'])
-    
+    $erros = [];
+
+//isset($_POST['nome'])
 //Validação do Nome
     if (!filter_input(INPUT_POST, "nome")) {
-        echo 'Nome é obrigatório', '<br>';
+        $erros['nome'] = 'Nome é obrigatório';
+    }
+    
+// Validação de Nascimento
+    if(filter_input(INPUT_POST, "nascimento")) {
+        $data = DateTime::createFromFormat(
+            'd/m/Y', $_POST['nascimento']);
+        if(!$data) {
+            $erros['nascimento'] = 'Data deve estar no padrão dd/mm/aaaa';
+        }
     }
 
 // Validação de Data
     if (filter_input(INPUT_POST, "nascimento")) {
         $data = DateTime::createFromFormat('d/m/Y', $_POST['nascimento']);
         if (!$data) {
-            echo 'Data dev estar no padrão dd/mm/aaaa', '<br>';
+            $erros['data'] = 'Data dev estar no padrão dd/mm/aaaa';
         }
     }
 
-    //Validação Email
+//Validação Email
     if (!filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
-        echo 'Email inválido', '<br>';
+         $erros['email'] ='Email inválido';
     }
 
-    // Validação site
+// Validação site
     if (!filter_var($_POST['site'], FILTER_VALIDATE_URL)) {
-        echo 'Site inválido', '<br>';
+        $erros['site'] = 'Site inválido';
     }
 
 // Validação de Filho
@@ -37,48 +46,91 @@ if (count($_POST) > 0) {
     ];
     if(!filter_var($_POST['filhos'], FILTER_VALIDATE_INT, 
     $filhosConfig) && $_POST['filhos'] != 0){
-        echo 'Quantidade de filhos inválida', '<br>';
+         $erros['filhos'] = 'Quantidade de filhos inválida';
     }
 
 // Validação de Salário
     $salarioConfig = ['options' => ['decimal' => ',']];
     if(!filter_var($_POST['salario'], FILTER_VALIDATE_FLOAT, $salarioConfig)){
-        echo 'Salário inválido', '<br>';
+         $erros['salario'] ='Salário inválido';
     }
 }
-
 ?>
+
+<?php foreach($erros as $erro): ?>
+    <!-- <div class="alert alert-danger" role="alert"> -->
+        <?= "" // $erro ?>
+    <!-- </div> -->
+<?php endforeach ?>
 
 <form action="#" method="post">
     <div class="form-row">
         <div class="form-group col-md-8">
             <label for="nome">Nome</label>
-            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome" value="<?= $_POST['nome'] ?>" />
+            <input type="text" 
+                class="form-control <?= $erros['nome'] ? 'is-invalid' : ''?>"
+                id="nome" name="nome" placeholder="Nome"
+                value="<?= $_POST['nome'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['nome'] ?>
+            </div>
         </div>
         <div class="form-group col-md-4">
             <label for="nascimento">Nascimento</label>
-            <input type="text" class="form-control" id="nascimento" name="nascimento" placeholder="Nascimento" value="<?= $_POST['nascimento'] ?>" />
+            <input type="text"
+                class="form-control <?= $erros['nascimento'] ? 'is-invalid' : ''?>"
+                id="nascimento" name="nascimento"
+                placeholder="Nascimento"
+                value="<?= $_POST['nascimento'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['nascimento'] ?>
+            </div>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
-            <label for="email">Email</label>
-            <input type="text" class="form-control" id="email" name="email" placeholder="E-mail" value="<?= $_POST['email'] ?>" />
+            <label for="email">E-mail</label>
+            <input type="text"
+                class="form-control <?= $erros['email'] ? 'is-invalid' : ''?>"
+                id="email" name="email" placeholder="E-mail"
+                value="<?= $_POST['email'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['email'] ?>
+            </div>
         </div>
-
         <div class="form-group col-md-6">
             <label for="site">Site</label>
-            <input type="text" class="form-control" id="site" name="site" placeholder="Site" value="<?= $_POST['site'] ?>" />
+            <input type="text"
+                class="form-control <?= $erros['site'] ? 'is-invalid' : ''?>"
+                id="site" name="site" placeholder="Site"
+                value="<?= $_POST['site'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['site'] ?>
+            </div>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-6">
             <label for="filhos">Qtde de Filhos</label>
-            <input type="number" class="form-control" id="filhos" name="filhos" placeholder="Filhos" value="<?= $_POST['filhos'] ?>" />
+            <input type="number" 
+                class="form-control <?= $erros['filhos'] ? 'is-invalid' : ''?>"
+                id="filhos" name="filhos"
+                placeholder="Qtde de Filhos"
+                value="<?= $_POST['filhos'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['filhos'] ?>
+            </div>
         </div>
         <div class="form-group col-md-6">
             <label for="salario">Salário</label>
-            <input type="text" class="form-control" id="salario" name="salario" placeholder="Salario" value="<?= $_POST['salario'] ?>" />
+            <input type="text"
+                class="form-control <?= $erros['salario'] ? 'is-invalid' : ''?>"
+                id="salario" name="salario"
+                placeholder="Salário"
+                value="<?= $_POST['salario'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['salario'] ?>
+            </div>
         </div>
     </div>
     <button class="btn btn-primary btn-lg">Enviar</button>
