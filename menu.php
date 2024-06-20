@@ -170,6 +170,7 @@
                     <h3>Módulo-15 - Banco de Dados</h3>
                     <ul>
                         <li><a href="exercicio.php?dir=banco&file=criar_banco">Criar Banco de Dados</a></li>
+                        <li><a href="exercicio.php?dir=banco&file=criar_tabela">Criar Tabela</a></li>
                         </ul>
                 </div>
             </nav>
