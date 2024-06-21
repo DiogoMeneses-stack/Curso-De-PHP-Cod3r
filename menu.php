@@ -171,6 +171,7 @@
                     <ul>
                         <li><a href="exercicio.php?dir=banco&file=criar_banco">Criar Banco de Dados</a></li>
                         <li><a href="exercicio.php?dir=banco&file=criar_tabela">Criar Tabela</a></li>
+                        <li><a href="exercicio.php?dir=banco&file=inserir_registro">Inserir Registro</a></li>
                         </ul>
                 </div>
             </nav>
