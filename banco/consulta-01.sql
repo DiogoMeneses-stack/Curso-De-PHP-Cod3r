@@ -1,1 +1,1 @@
-DROP DATABASE cursophp;
+SELECT * from cursophp;
