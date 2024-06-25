@@ -9,7 +9,7 @@ try {
     $registros = [];
 
     // condição de Exclusão
-    if(isset($_GET['excluir']) && $_GET['excluir']){
+    if (isset($_GET['excluir']) && $_GET['excluir']) {
         $excluirDado = "DELETE FROM cadastro WHERE id = ?";
         $stmt = $conexao->prepare($excluirDado);
         $stmt->bind_param("i", $_GET['excluir']);
@@ -46,7 +46,7 @@ try {
     <tbody>
         <?php foreach ($registros as $registro) : ?>
             <tr>
-        <!-- DADOS PEGOS DO DB -->
+                <!-- DADOS PEGOS DO DB -->
                 <td><?= $registro['id'] ?></td>
                 <td><?= $registro['nome'] ?></td>
                 <td><?=
@@ -55,8 +55,7 @@ try {
                 </td>
                 <td><?= $registro['email'] ?></td>
                 <td>
-                    <a href="exercicio.php?dir=banco&file=deletar-registro-02&excluir=<?= $registro['id'] ?>"
-                        class="btn btn-danger">Deletar</a>
+                    <a href="exercicio.php?dir=banco&file=deletar-registro-02&excluir=<?= $registro['id'] ?>" class="btn btn-danger">Deletar</a>
                 </td>
             </tr>
         <?php endforeach ?>

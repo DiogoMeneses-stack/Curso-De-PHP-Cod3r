@@ -14,13 +14,13 @@
                 5000
                 )";
 
-$conxao = novaConexao();
-$resultado = $conxao->query($sql);
+$conexao = novaConexao();
+$resultado = $conexao->query($sql);
 
 if($resultado){
     echo "Sucesso";
 } else {
-    echo "Erro : " . $conxao->error;
+    echo "Erro : " . $conexao->error;
 }
 
 $conexao->close();
