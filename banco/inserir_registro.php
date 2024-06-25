@@ -6,9 +6,9 @@
     $sql = "INSERT INTO cadastro
             (nome, nascimento, email, site, filhos, salario)
             VALUES (
-                'André',
+                'João Cássio',
                 '1990-10-04',
-                'andre@gmail.com',
+                'JoaoCassio@gmail.com',
                 NULL,
                 5,
                 5000

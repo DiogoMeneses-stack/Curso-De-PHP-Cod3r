@@ -174,6 +174,7 @@
                         <li><a href="exercicio.php?dir=banco&file=inserir_registro">Inserir Registro</a></li>
                         <li><a href="exercicio.php?dir=banco&file=consultar-dados">Consultar Dados</a></li>
                         <li><a href="exercicio.php?dir=banco&file=deletar-registro">Deletar Dados</a></li>
+                        <li><a href="exercicio.php?dir=banco&file=deletar-registro-02">Deletar Dados 02</a></li>
                         </ul>
                 </div>
             </nav>
