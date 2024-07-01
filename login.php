@@ -2,7 +2,7 @@
 session_start();
 
 if($_COOKIE['usuario']){
-    $_SESSION['usuaroio'] = $_COOKIE['usuario'];
+    $_SESSION['usuario'] = $_COOKIE['usuario'];
 }
 
 $email = $_POST['email'];
